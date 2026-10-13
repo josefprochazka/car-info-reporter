@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sold cars.
+    ModelName - text
+    SaleDate  - ISO 8601 date (yyyy-MM-dd), a time part is allowed too
+    Price     - price without VAT, decimal point, no thousands separator
+    VatRate   - VAT rate in percent
+-->
+<CarSales>
+  <CarSale>
+    <ModelName>Škoda Oktávia</ModelName>
+    <SaleDate>2010-12-02</SaleDate>
+    <Price>500000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Felicia</ModelName>
+    <SaleDate>2000-12-03</SaleDate>
+    <Price>210000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Fabia</ModelName>
+    <SaleDate>2010-12-04</SaleDate>
+    <Price>350000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Oktávia</ModelName>
+    <SaleDate>2010-12-04</SaleDate>
+    <Price>500000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Oktávia</ModelName>
+    <SaleDate>2010-12-05</SaleDate>
+    <Price>500000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Fabia</ModelName>
+    <SaleDate>2010-12-05</SaleDate>
+    <Price>350000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Fabia</ModelName>
+    <SaleDate>2010-12-06</SaleDate>
+    <Price>350000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Forman</ModelName>
+    <SaleDate>2000-12-04</SaleDate>
+    <Price>100000</Price>
+    <VatRate>19</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Favorit</ModelName>
+    <SaleDate>2000-12-05</SaleDate>
+    <Price>80000</Price>
+    <VatRate>19</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Forman</ModelName>
+    <SaleDate>2000-12-06</SaleDate>
+    <Price>100000</Price>
+    <VatRate>19</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Felicia</ModelName>
+    <SaleDate>2000-12-03</SaleDate>
+    <Price>210000</Price>
+    <VatRate>19</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Felicia</ModelName>
+    <SaleDate>2000-12-02</SaleDate>
+    <Price>210000</Price>
+    <VatRate>19</VatRate>
+  </CarSale>
+  <CarSale>
+    <ModelName>Škoda Oktávia</ModelName>
+    <SaleDate>2010-12-07</SaleDate>
+    <Price>500000</Price>
+    <VatRate>20</VatRate>
+  </CarSale>
+</CarSales>
