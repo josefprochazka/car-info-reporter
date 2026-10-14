@@ -8,17 +8,20 @@ namespace CarInfoReporter.ViewModels;
 
 public partial class MainViewModel(IDialogService dialogService) : ObservableObject
 {
+    // [ObservableProperty] generates a public property from each field (FilePath, Sales, WeekendSummaries)
+    // that notifies the window when its value changes.
+
     /// <summary>Path of the loaded XML file.</summary>
     [ObservableProperty]
-    public partial string FilePath { get; set; } = "No file selected";
+    private string _filePath = "No file selected";
 
     /// <summary>All sold cars from the loaded file.</summary>
     [ObservableProperty]
-    public partial List<CarSale> Sales { get; set; } = [];
+    private List<CarSale> _sales = [];
 
     /// <summary>Weekend sales summed for each model.</summary>
     [ObservableProperty]
-    public partial List<ModelSummary> WeekendSummaries { get; set; } = [];
+    private List<ModelSummary> _weekendSummaries = [];
 
     /// <summary>Lets the user pick an XML file and loads it. Bound to the "Open XML file" button.</summary>
     [RelayCommand]

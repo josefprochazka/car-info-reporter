@@ -9,7 +9,8 @@ It is a solution of a practical interview assignment, see [docs/assignment](docs
 
 ## How to run
 
-Requirements: Windows and the [.NET 10 SDK](https://dotnet.microsoft.com/download) (or Visual Studio 2026 with the ".NET desktop development" workload).
+Requirements: Windows and the [.NET 8 SDK](https://dotnet.microsoft.com/download) or newer
+(or Visual Studio 2022 with the ".NET desktop development" workload).
 
 - **Visual Studio:** open `CarInfoReporter.sln` and press <kbd>F5</kbd>.
 - **Command line:**
@@ -63,7 +64,7 @@ tests/CarInfoReporter.Tests/    unit tests of the reader, the calculator and the
 
 ## Notes
 
-- **Stack:** C#, .NET 10, WPF, MVVM with [CommunityToolkit.Mvvm](https://learn.microsoft.com/dotnet/communitytoolkit/mvvm/), xUnit.
+- **Stack:** C#, .NET 8 (LTS), WPF, MVVM with [CommunityToolkit.Mvvm](https://learn.microsoft.com/dotnet/communitytoolkit/mvvm/), xUnit.
 - **MVVM:** the window (`MainWindow.xaml`) contains only the layout and bindings. The view model does not touch the UI,
   it opens dialogs through `IDialogService`, so it is tested with a fake one and no window is needed.
 - **Money is `decimal`, not `double`.** The assignment lists the price and VAT as `double`, but `decimal` is the right type
